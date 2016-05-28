@@ -8,7 +8,7 @@ newSubmit.addEventListener("click", getValues);
 
 window.addEventListener("keyup", submitOnEnter);
 function submitOnEnter(event) {
-  if (event.keycode === 13) {
+  if (event.keyCode === 13) {
     getValues();
   }
 }
